@@ -1,0 +1,7 @@
+item_id,item_name,category,quantity_on_hand,unit,expiry_date,reorder_threshold,supplier_id
+ITM001,Coffee Beans,Beverages,1,kg,2026-05-15,15,SUP001
+ITM002,Milk Cartons,Dairy,45,units,2026-03-24,10,SUP002
+ITM003,Yogurt Cups,Dairy,6,units,2026-03-26,8,SUP003
+ITM004,Cleaning Wipes,Supplies,118,packs,2026-12-31,20,SUP004
+ITM005,Bananas,Produce,30,units,2026-03-23,12,SUP005
+ITM006,Printer Paper,Office,50,reams,2027-06-01,10,SUP006

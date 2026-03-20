@@ -1,0 +1,7 @@
+supplier_id,supplier_name,avg_lead_days,local_flag,refurbished_flag,packaging_score
+SUP001,Bean Source Co.,3,True,False,4
+SUP002,Fresh Dairy Ltd.,1,True,False,3
+SUP003,YogurtWorld,2,False,False,2
+SUP004,CleanAll Supplies,5,False,True,5
+SUP005,Tropical Fruits Inc.,2,True,False,3
+SUP006,PaperMill Direct,4,False,True,4

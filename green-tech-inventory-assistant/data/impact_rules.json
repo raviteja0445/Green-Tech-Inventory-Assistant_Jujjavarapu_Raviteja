@@ -1,0 +1,22 @@
+{
+  "sustainability": {
+    "local_supplier_bonus": 1,
+    "refurbished_bonus": 1,
+    "good_packaging_threshold": 4,
+    "packaging_bonus": 1
+  },
+  "fallback_templates": {
+    "reorder_now": "Reorder now because projected stock lasts {days_remaining:.1f} days and supplier lead time is {lead_time} days.",
+    "reorder_later": "Reorder later. Current stock covers {days_remaining:.1f} days, which exceeds lead time of {lead_time} days, but will drop below safe level soon.",
+    "do_not_reorder": "Do not reorder because current stock is sufficient for expected usage before expiry.",
+    "waste_risk": "High waste risk because projected usage before expiry ({projected_usage:.1f} {unit}) is lower than current stock ({current_stock} {unit}).",
+    "no_usage": "Insufficient usage data to compute a reliable recommendation. Showing safe default.",
+    "expired": "Item has already expired. Consider removing from inventory."
+  },
+  "simulator_defaults": {
+    "projection_days": 7,
+    "demand_spike_options": [0, 10, 20, 30, 50],
+    "default_safety_buffer_days": 2
+  },
+  "target_cover_days": 7
+}
