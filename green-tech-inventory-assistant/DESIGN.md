@@ -204,7 +204,6 @@ The application includes 19 rigorous `pytest` tests that guarantee mathematical 
 
 ## 12. Limitations
 - **Single-User Architecture**: Relying purely on SQLite drastically improves local deployment speed but renders the app fragile under high-concurrency multi-user writes.
-- **Aggressive Perishable Capping**: The code rigidly restricts perishable goods orders to *exactly* what can be used before expiry based on past averages. Highly unpredictable demand spikes could trigger stockouts.
 - **Fixed Horizons**: Projections are strictly capped at 7 days.
 
 ---
