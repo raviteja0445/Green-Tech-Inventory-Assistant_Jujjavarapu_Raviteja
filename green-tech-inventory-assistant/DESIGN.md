@@ -19,26 +19,26 @@ The application strictly decouples the user interface from business logic, ensur
 ```mermaid
 flowchart TD
     %% Define layers
-    User[User / Operator]
+    User["User / Operator"]
     
     subgraph UI Layer
-        App[app.py (Streamlit Dashboard)]
+        App["app.py (Streamlit Dashboard)"]
     end
     
     subgraph Execution & Logic Layer
-        Reorder[reorder_engine.py (Core Math)]
-        Insights[insights.py (Pattern Detection)]
-        Sim[simulator.py (What-If Logic)]
+        Reorder["reorder_engine.py (Core Math)"]
+        Insights["insights.py (Pattern Detection)"]
+        Sim["simulator.py (What-If Logic)"]
     end
     
     subgraph Explanation Layer
-        AI[ai_explainer.py (Groq API)]
-        Fallback[fallback_explainer.py (Rule-Based)]
+        AI["ai_explainer.py (Groq API)"]
+        Fallback["fallback_explainer.py (Rule-Based)"]
     end
     
     subgraph Data Layer
-        DataLoader[data_loader.py (SQLAlchemy CRUD)]
-        DB[(inventory.db SQLite)]
+        DataLoader["data_loader.py (SQLAlchemy CRUD)"]
+        DB[("inventory.db SQLite")]
     end
 
     %% Flow connections
