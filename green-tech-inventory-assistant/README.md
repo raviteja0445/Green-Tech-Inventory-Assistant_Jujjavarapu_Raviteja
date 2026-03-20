@@ -72,7 +72,6 @@ Initially, AI was experimented with for inferring actual future usage algorithms
 
 To strictly remain within the 5.5-hour scope limit while retaining maximal impact, the following were explicitly omitted:
 - **PostgreSQL / Multi-User Architecture**: Relying purely on SQLite drastically improved local prototype stability, at the complete cost of multi-user concurrency tracking and RBAC authorization overheads.
-- **Physical Integration**: Barcode scanner inputs or live POS API webhooks are completely excluded, simulated safely via `seed_db.py`.
 - **Optimization Algorithms**: A strict lack of complex multi-item mathematical purchasing optimization.
 - **Extended Horizons**: Projections explicitly cut off gracefully at exactly 7-days, preventing arbitrary guess factors extending outwards.
 
