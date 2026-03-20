@@ -84,4 +84,4 @@ To strictly remain within the 5.5-hour scope limit while retaining maximal impac
 
 ## Video Link
 
-[Insert Loom / YouTube Walkthrough Video Link Here]
+https://youtu.be/3N8YczN2KDw
