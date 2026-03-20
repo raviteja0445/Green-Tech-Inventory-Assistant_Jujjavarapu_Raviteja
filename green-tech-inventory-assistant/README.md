@@ -68,7 +68,7 @@ The application operates fully offline locally without AI — via identical, equ
 
 Initially, AI was experimented with for inferring actual future usage algorithms instead of just language translation. I actively **rejected** this suggestion to maintain strict product trust and avoid "black-box" unpredictability. AI should assist the operator to quickly decipher the data rather than directly making algorithmic business executions on its own unstructured weights. I anchored the generative AI rigidly to the outputs of the safe Python logic engine so it cannot hallucinate non-existent stock quantities.
 
-## What You Cut to Stay in the Timebox
+## What I Cut to Stay in the Timebox
 
 To strictly remain within the 5.5-hour scope limit while retaining maximal impact, the following were explicitly omitted:
 - **PostgreSQL / Multi-User Architecture**: Relying purely on SQLite drastically improved local prototype stability, at the complete cost of multi-user concurrency tracking and RBAC authorization overheads.
