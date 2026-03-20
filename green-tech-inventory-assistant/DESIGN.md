@@ -63,7 +63,9 @@ flowchart TD
 **Simple Data Flow Diagram**:
 ```text
 User → UI → Reorder Engine ↔ DB  
-                  ↓  
+                  ↓
+            Analytics Layer
+                  ↓ 
             Explanation Layer (AI)  
                   ↓  
             Fallback Layer (if AI fails)
