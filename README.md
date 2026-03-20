@@ -37,7 +37,7 @@ Open `.env` and set `GROQ_API_KEY=your_actual_api_key_here`.
 *(Note: The app will run smoothly with rule-based text generation if you choose not to provide an API key).*
 *(Get a free API key from [Groq Console](https://console.groq.com)).*
 
-# 5. Seed the database (auto-runs on first launch, or explicitly run it)
+# Seed the database (auto-runs on first launch, or explicitly run it)
 python seed_db.py
 ```
 
